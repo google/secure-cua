@@ -1,0 +1,72 @@
+# ============================================================================
+#  Runtime dependencies — NO-BUILD / flat list, unpinned so pip takes whatever your index has.
+#
+#  There are NO editable (`-e`) installs here: the vendored code (secure_bench, camel, the
+#  WebArena harness) runs straight from PYTHONPATH (set by env.sh), so pip does NOT need `hatchling` or
+#  any build backend — this installs cleanly from a locked-down private index.
+#
+#  Install (from the artifact root, venv activated):
+#    git clone https://github.com/web-arena-x/webarena fetched/webarena_official   # (setup.sh does this)
+#    pip install -r requirements.txt
+#    playwright install chromium
+#  Point pip at your index if needed:  pip install --index-url <your-index> -r requirements.txt
+#
+#  If a run later dies with `ModuleNotFoundError: X`, that package just isn't on your index yet —
+#  install it (`pip install X --index-url <your-index>`) and add it here. This list is trimmed to what
+#  our arms actually import.
+#  No GPU needed (no torch/transformers here — unused by our arms).
+# ============================================================================
+
+# --- LLM providers (Vertex / Azure / Gemini) ---
+anthropic==0.64.0         # PINNED: CaMeL's grounder goes through pydantic-ai 0.8.1, whose Anthropic model
+                          # imports beta-thinking types from anthropic.types.beta that anthropic >=~0.7x
+                          # relocated -> "Please install anthropic" -> the Sonnet grounder throws and every
+                          # CaMeL find/defense call FAILs (unfair to CaMeL). 0.64.0 also serves the secure/
+                          # baseline arms' AnthropicVertex path; it's the version the proven camel venv used.
+openai
+google-genai
+vertexai
+
+# --- CaMeL core ---
+agentdojo==0.1.34         # PINNED: the vendored CaMeL suites target AgentDojo 0.1.x APIs.
+pydantic
+pydantic-ai==0.8.1        # PINNED: the vendored quarantined-LLM path calls `result.usage()` (pydantic-ai 0.8.x).
+                          # pydantic-ai 2.x renamed it to a non-callable `RunUsage` attribute -> every
+                          # find_element_by_text / token-track crashes with "'RunUsage' object is not callable".
+cyclopts
+tiktoken
+jsonref
+openapi-pydantic
+
+# --- browser + shared utils ---
+playwright
+Pillow
+numpy<2                   # PINNED <2: the WebArena harness (browser_env) uses np.ScalarType-era APIs that
+                         # numpy 2.x removed ("ScalarT invalid" on import). On py3.12 this resolves to 1.26.x,
+                         # which every consumer (browser_env, evaluation_harness) accepts.
+scipy>=1.11              # PINNED >=1.11: nltk->scipy is a transitive harness dep; scipy <1.11 uses `np.long`
+                         # (removed in numpy 1.24) and crashes evaluation_harness import under numpy 1.26.
+gymnasium==0.28.1        # PINNED: the WebArena harness's browser_env/actions.py does `from gymnasium import
+                         # spaces` (its action space is a gym.Space), so the harness (config-gen, auto_login,
+                         # browser_env, evaluation_harness) fails to import without it. 0.28.x matches the
+                         # harness era + numpy<2. (browser_env needs this independently of anything else.)
+requests
+python-dotenv
+lxml
+flask
+backoff
+reportlab
+
+# --- WebArena official eval harness deps (browser_env / evaluation_harness / llms) ---
+beartype
+aiolimiter
+text-generation
+evaluate
+nltk
+types-tqdm
+# --- small helpers still imported by live code ---
+pyautogui                 # imported by the CaMeL base_ui_uitars module (shared pure-python hub)
+openpyxl                  # xlsx export path in collate_by_site.py
+
+# NOTE — realbench (REAL/omnizon) now runs through the SAME Playwright pipeline as WebArena (no desktop VM,
+# no gymnasium/DesktopEnv). It's scored by agisdk in its own gymnasium-1.x .agisdk_venv (SETUP_REALBENCH=1).

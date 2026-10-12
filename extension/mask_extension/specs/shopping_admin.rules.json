@@ -1,0 +1,433 @@
+{
+  "site": "localhost:7780",
+  "templates": {
+    "*": [
+      {
+        "sel": "body.sales-order-index .data-grid tbody td:nth-child(5)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order-index .data-grid tbody td:nth-child(6)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "address",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".order-account-information-table a",
+        "trust": "⊥"
+      },
+      {
+        "sel": "td.col-product",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".order-information-table tr:nth-child(3) td",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order-view .data-grid tbody td:nth-child(6)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-invoice-index .data-grid tbody td:nth-child(6)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-shipment-index .data-grid tbody td:nth-child(6)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-creditmemo-index .data-grid tbody td:nth-child(6)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.paypal-billing_agreement-index .data-grid tbody td:nth-child(2)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.paypal-billing_agreement-index .data-grid tbody td:nth-child(3)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.paypal-billing_agreement-index .data-grid tbody td:nth-child(4)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.catalog-product-index .data-grid tbody td:nth-child(3)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.catalog-product-index .data-grid tbody td:nth-child(4)",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".modal-popup._image-box img",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".modal-popup._image-box .modal-title",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"product[name]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"product[sku]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "iframe[id$=\"description_ifr\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "textarea[name=\"product[description]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "textarea[name=\"product[short_description]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"product[meta_title]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "textarea[name=\"product[meta_description]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "textarea[name=\"product[meta_keyword]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"product[url_key]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "[data-index=gallery] img",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.catalog-product-edit .page-title",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.catalog-category-edit tbody td.col-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-index .admin__data-grid-outer-wrap tbody td:nth-child(2)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-index .admin__data-grid-outer-wrap tbody td:nth-child(3)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-index .admin__data-grid-outer-wrap tbody td:nth-child(5)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-index .admin__data-grid-outer-wrap tbody td:nth-child(6)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit .page-title",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[prefix]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[firstname]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[middlename]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[lastname]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[suffix]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[email]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[taxvat]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "input[name=\"customer[dob]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit .admin__data-grid-outer-wrap table.data-grid-draggable tbody td:nth-child(2)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit .admin__data-grid-outer-wrap table.data-grid-draggable tbody td:nth-child(3)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit .admin__data-grid-outer-wrap table.data-grid-draggable tbody td:nth-child(4)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit .admin__data-grid-outer-wrap table.data-grid-draggable tbody td:nth-child(5)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit .admin__data-grid-outer-wrap table.data-grid-draggable tbody td:nth-child(8)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit .admin__data-grid-outer-wrap table.data-grid-draggable tbody td:nth-child(9)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#customer_cart_grid_table tbody td.col-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#reviewGrid_table tbody td.col-title",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#reviewGrid_table tbody td.col-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#reviewGrid_table tbody td.col-detail",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#wishlistGrid_table tbody td.col-product_name",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#wishlistGrid_table tbody td.col-description",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"prefix\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"firstname\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"middlename\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"lastname\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"suffix\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"company\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"street[0]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"street[1]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"city\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"postcode\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"telephone\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-index-edit input[name=\"vat_id\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-online-index .admin__data-grid-outer-wrap tbody td:nth-child(2)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-online-index .admin__data-grid-outer-wrap tbody td:nth-child(3)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.customer-online-index .admin__data-grid-outer-wrap tbody td:nth-child(4)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index .page-title",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name=\"order[account][email]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index select[name$=\"[customer_address_id]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[prefix]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[firstname]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[middlename]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[lastname]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[suffix]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[company]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[street][0]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[street][1]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[city]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[postcode]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[telephone]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[fax]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index input[name$=\"[vat_id]\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index tbody td.col-item",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.sales-order_create-index tbody td.col-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.review-product-edit input[name=\"nickname\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.review-product-edit input[name=\"title\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.review-product-edit textarea[name=\"detail\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.review-product-edit a[href*=\"catalog/product/edit\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.adminhtml-dashboard-index tbody td.col-customer",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.adminhtml-dashboard-index tbody td.col-search_query",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.adminhtml-dashboard-index tbody td.col-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.search-term-index tbody td.col-search_query",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body[class^=\"reports-report\"] tbody td.col-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.reports-report_shopcart-abandoned tbody td.col-email",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.search-term-report tbody td.col-query_text",
+        "trust": "⊥"
+      },
+      {
+        "sel": "body.newsletter-problem-index tbody td.col-subscriber",
+        "trust": "⊥"
+      },
+      { "_note": "Order address-edit page (sales-order-address) uses BARE PII field names (firstname, street[N], city, telephone, vat_id, ...) — always-PII form. Scoped to THIS page (not global) so grid FILTER inputs that reuse bare names firstname/lastname (e.g. the newsletter-subscriber grid) are NOT over-masked. Geo enum selects country_id/region_id stay visible. The customer address add/edit modal uses the SAME bare names and is covered by the body.customer-index-edit input[...] rules above (+ fax/region added just below).",
+        "sel": "body.sales-order-address input[name=\"firstname\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"middlename\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"lastname\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"prefix\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"suffix\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"company\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name^=\"street\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"city\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"postcode\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"region\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"telephone\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"fax\"]", "trust": "⊥" },
+      { "sel": "body.sales-order-address input[name=\"vat_id\"]", "trust": "⊥" },
+      { "_note": "Customer address add/edit modal (body.customer-index-edit): fax + region text complete the bare-name PII set already covered for this page by the body.customer-index-edit input[name=...] rules above.",
+        "sel": "body.customer-index-edit input[name=\"fax\"]", "trust": "⊥" },
+      { "sel": "body.customer-index-edit input[name=\"region\"]", "trust": "⊥" },
+      { "_note": "Configurable-product edit -> Configurations grid: variant NAME/SKU/thumbnail = product content. Price/qty/weight/status/attributes + column headers stay visible.",
+        "sel": "[data-index=\"configurable-matrix\"] [data-index=\"name_container\"]", "trust": "⊥" },
+      { "sel": "[data-index=\"configurable-matrix\"] [data-index=\"sku_container\"]", "trust": "⊥" },
+      { "sel": "[data-index=\"configurable-matrix\"] [data-index=\"thumbnail_image_container\"] img", "trust": "⊥" },
+      { "_note": "Newsletter subscribers grid: subscriber Email + Customer First/Last Name. tbody-scoped so the thead filter inputs stay usable. Type/Status/Website/Store trusted.",
+        "sel": "#subscriberGrid_table tbody td.col-email", "trust": "⊥" },
+      { "sel": "#subscriberGrid_table tbody td.col-first-name", "trust": "⊥" },
+      { "sel": "#subscriberGrid_table tbody td.col-last-name", "trust": "⊥" },
+      { "_note": "Customer-edit Orders tab grid: Bill-to / Ship-to customer names. tbody-scoped so the thead billing_name/shipping_name filter inputs stay usable. Order#/date/total/point/status trusted.",
+        "sel": "#customer_orders_grid_table tbody td.col-billing_name", "trust": "⊥" },
+      { "sel": "#customer_orders_grid_table tbody td.col-shipping_name", "trust": "⊥" },
+      { "_note": "Customer-edit Customer View tab: the customer NAME (strong in the Personal Information block; usually inside the masked <address>, but standalone if the customer has no default billing address). The block title is a <span class=title>, so this never masks the section heading.",
+        "sel": "body.customer-index-edit .customer-information strong", "trust": "⊥" }
+    ]
+  }
+}

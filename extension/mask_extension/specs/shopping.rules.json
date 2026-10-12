@@ -1,0 +1,107 @@
+{
+  "site": "localhost:7770",
+  "also_sites": [
+    "localhost:7780"
+  ],
+  "templates": {
+    "*": [
+      {
+        "sel": ".product-item-link",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product-image-photo",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".page-title-wrapper.product .base",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product.attribute.description",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product.attribute.description td",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product.attribute.description li",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".fotorama__nav__shaft",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".fotorama__stage img",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".review-author .review-details-value",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".review-title",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".review-content",
+        "trust": "⊥",
+        "part": "text"
+      },
+      {
+        "sel": ".review-legend strong",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".breadcrumbs .item.product strong",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".minicart-items .product-item-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".message-success",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product-image-wrapper img:not(.product-image-photo)",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product-item-name a:not(.product-item-link):not(.minicart-items *)",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".table-order-items .product-item-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product-name",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".product.attribute.description [class*=\"apm-\"] :is(img,h1,h2,h3,h4,h5,h6,p)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#aplus img, #aplus h3, #aplus h4, #aplus h5, #aplus h6, #aplus p, #aplus li",
+        "trust": "⊥"
+      },
+      {
+        "sel": "[id^=\"productDescription\"] img, [id^=\"productDescription\"] li, [id^=\"productDescription\"] td",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".apm-tablemodule-table th, .apm-tablemodule-table td, [class*=\"apm-\"] span, [class*=\"apm-\"] li",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#product-attribute-specs-table td, .additional-attributes-wrapper td, table.additional-attributes td",
+        "trust": "⊥"
+      }
+    ]
+  }
+}

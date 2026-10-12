@@ -1,0 +1,97 @@
+{
+  "site": "localhost:9999",
+  "templates": {
+    "*": [
+      {
+        "sel": ".submission__link",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".submission__thumb",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".submission__submitter",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".submission__host",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".submission__host",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".comment__body",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".comment__header a[href^=\"/user/\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".comment__header a[href^=\"/user/\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".submission__body",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".submission__body",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".comment__context a[class=\"fg-inherit\"][href^=\"/f/\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".comment__context a[href^=\"/user/\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".submission__image",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".forum-sidebar-content",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".page-heading a[href^=\"/user/\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#forum_description",
+        "trust": "⊥"
+      }
+    ],
+    "/forums/**": [
+      {
+        "sel": "article p.break-text",
+        "trust": "⊥"
+      }
+    ],
+    "/user/**": [
+      {
+        "sel": ".user-bio__biography",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".sidebar__title a",
+        "trust": "⊥"
+      }
+    ],
+    "/user/MarvelsGrantMan136/**": [
+      {
+        "sel": ".sidebar__title a",
+        "trust": "⊤"
+      },
+      {
+        "sel": ".user-bio__biography",
+        "trust": "⊤"
+      }
+    ]
+  }
+}

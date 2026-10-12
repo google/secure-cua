@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Secure Mask — provenance marking",
+  "version": "0.4",
+  "description": "Console-driven set-of-marks + trust masking (window.mark). Rules stamp data-trust on the live DOM, masked in both channels; template-scoped; key-gated runtime maskAll/revealAll for actuator vs shadow screenshots.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.vercel.app/*", "*://localhost/*", "*://127.0.0.1/*"],
+      "js": ["seed.js", "content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    },
+    {
+      "matches": ["*://*.vercel.app/*", "*://localhost/*", "*://127.0.0.1/*"],
+      "js": ["content_main.js"],
+      "run_at": "document_idle",
+      "world": "MAIN",
+      "all_frames": false
+    }
+  ],
+  "host_permissions": ["*://*.vercel.app/*"]
+}

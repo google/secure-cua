@@ -1,0 +1,134 @@
+{
+  "site": "amazon-omnizon-z1-rea-lr9f-agi7-xw2-pq6s-git-b7a192-real-sites.vercel.app",
+  "templates": {
+    "/s": [
+      {
+        "sel": "[aria-label^=\"View details\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "h2[role=\"link\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "[role=region] p:not([aria-label^=\"View price\"] p):not(div:has(> svg[data-testid^=\"Star\"]) > p)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "img:not([data-nimg])",
+        "trust": "⊥"
+      }
+    ],
+    "/cart": [
+      {
+        "sel": "img[alt^=\"Image of\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "img:not([data-nimg])",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p:has(> strong)",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-ldast4",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-149wnsy",
+        "trust": "⊥"
+      }
+    ],
+    "/#": [
+      {
+        "sel": "[aria-label=\"Product image gallery\"] img",
+        "trust": "⊥"
+      },
+      {
+        "sel": "img[alt^=\"Image of\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#product-details-header",
+        "trust": "⊥"
+      },
+      {
+        "sel": "#product-rating",
+        "trust": "⊥"
+      },
+      {
+        "sel": "ul[aria-label=\"Product details\"] li",
+        "trust": "⊥"
+      },
+      {
+        "sel": "h2[role=\"link\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "[aria-label^=\"View details\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-i4fnbu",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".css-174qqwt",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-10d1yfb, p.css-ci1czb",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-1qubk8r",
+        "trust": "⊥"
+      },
+      {
+        "sel": ".css-k008qs > p:last-of-type",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-hb7day span",
+        "trust": "⊥"
+      }
+    ],
+    "/buy": [
+      {
+        "sel": "img[alt^=\"Image of\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-13pev85",
+        "trust": "⊥"
+      }
+    ],
+    "/": [
+      {
+        "sel": "img[alt$=\"products image\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "[role=group] img",
+        "trust": "⊥"
+      }
+    ],
+    "/order-history": [
+      {
+        "sel": "img[alt=\"Product\"]",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-19qys7c",
+        "trust": "⊥"
+      },
+      {
+        "sel": "p.css-1cp3jun",
+        "trust": "⊥",
+        "part": "value"
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+ "site": "localhost:8023",
+ "templates": {
+  "*": [
+   {
+    "sel": ".project-row .namespace-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".project-row .project-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".cover-title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".user-info .gl-mt-4 > .middle-dot-divider:first-child",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".event-item .author-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".event-item .username",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".profile-user-bio",
+    "trust": "⊥"
+   },
+   {
+    "sel": "[itemprop=addressLocality]",
+    "trust": "⊥"
+   },
+   {
+    "sel": "[itemprop=worksFor]",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".cover-status",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".event-item .event-target-title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".event-item .event-body",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".breadcrumb-item a",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".event-item .namespace-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".event-item .project-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".ref-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".home-panel-title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".home-panel-description",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".commit-row-message",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".tree-commit-link",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".gl-avatar",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".header-user-avatar",
+    "trust": "⊤"
+   },
+   {
+    "sel": ".avatar",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".tree-item-file-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".breadcrumbs-list a",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".committer",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".issue-title-text",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".author-link",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".gl-label-text",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".issue-details .title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".js-user-link",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".author-username",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".merge-request-title-text",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".detail-page-header-body .title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".detail-page-description a[href*=\"/-/tree/\"]",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".line_content",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".diff-content img",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".file-title-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": "[data-testid=ref-name]",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".block.with-sub-blocks .sub-block:not(.js-sidebar-source-branch) span[title]",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".label-branch",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".md:not(.suggestions)",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".md.suggestions > :not(:has(.md-suggestion))",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".label-container .badge",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".file-row-name",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".blob-content",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".gl-dropdown-item:has(.gl-avatar) .gl-dropdown-item-text-wrapper",
+    "trust": "⊥"
+   },
+   {
+    "sel": "[data-testid=members-table] td a:not(.js-user-link)",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".todo-title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".todo-body a",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".content-list .user-info",
+    "trust": "⊥",
+    "part": "text"
+   },
+   {
+    "sel": "[data-track-label$=\"_title\"]",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".description",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".group-row .title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".sidebar-context-title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".contributors-charts .row h4",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".contributors-charts .row p",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".monaco-editor .view-lines",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".monaco-editor .view-line",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".file-editor .monaco-editor textarea",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".file-content",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".blob-auxiliary-viewer",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".commit-title",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".commit-description",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".commit-author-link",
+    "trust": "⊥"
+   },
+   {
+    "sel": ".commit-committer-link",
+    "trust": "⊥"
+   }
+  ]
+ }
+}
