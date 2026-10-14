@@ -30,7 +30,7 @@ vertexai
 # --- CaMeL core ---
 agentdojo==0.1.34         # PINNED: the vendored CaMeL suites target AgentDojo 0.1.x APIs.
 pydantic
-pydantic-ai==0.8.1        # PINNED: the vendored quarantined-LLM path calls `result.usage()` (pydantic-ai 0.8.x).
+pydantic-ai==1.107.7        # PINNED: the vendored quarantined-LLM path calls `result.usage()` (pydantic-ai 0.8.x).
                           # pydantic-ai 2.x renamed it to a non-callable `RunUsage` attribute -> every
                           # find_element_by_text / token-track crashes with "'RunUsage' object is not callable".
 cyclopts
